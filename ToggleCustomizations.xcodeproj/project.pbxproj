@@ -11,6 +11,7 @@
 		ADC1FE9E2533C1240055633D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1FE9D2533C1240055633D /* ContentView.swift */; };
 		ADC1FEA02533C1270055633D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC1FE9F2533C1270055633D /* Assets.xcassets */; };
 		ADC1FEA32533C1270055633D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC1FEA22533C1270055633D /* Preview Assets.xcassets */; };
+		ADC1FEAE2533C3860055633D /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1FEAD2533C3860055633D /* CustomToggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		ADC1FE9F2533C1270055633D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC1FEA22533C1270055633D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADC1FEA42533C1270055633D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC1FEAD2533C3860055633D /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				ADC1FE9B2533C1240055633D /* ToggleCustomizationsApp.swift */,
 				ADC1FE9D2533C1240055633D /* ContentView.swift */,
+				ADC1FEAD2533C3860055633D /* CustomToggle.swift */,
 				ADC1FE9F2533C1270055633D /* Assets.xcassets */,
 				ADC1FEA42533C1270055633D /* Info.plist */,
 				ADC1FEA12533C1270055633D /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC1FEAE2533C3860055633D /* CustomToggle.swift in Sources */,
 				ADC1FE9E2533C1240055633D /* ContentView.swift in Sources */,
 				ADC1FE9C2533C1240055633D /* ToggleCustomizationsApp.swift in Sources */,
 			);
