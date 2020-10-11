@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            CustomToggle(toggleStyle: .switchToggle, title: "Switch", tintColor: .red)
+            CustomToggle(toggleStyle: .checkboxToggle, title: "Checkbox", tintColor: .green)
+            CustomToggle(toggleStyle: .favouriteToggle, title: "Favourite", tintColor: .blue)
+        }
+
     }
 }
 
